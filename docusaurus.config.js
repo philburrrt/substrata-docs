@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Substrata',
-  tagline: 'The Metaverse Protocol',
+  tagline: 'Open Metaverse Protocol',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -50,16 +50,16 @@ const config = {
         },
         items: [
           {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'User',
+            to: 'docs/user/intro',
+            label: 'User'
           },
           {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Developer',
+            to: 'docs/developer/intro',
+            label: 'Developer'
+          },
+          {
+            to: 'https://substrata.info/about_substrata',
+            label: 'Vision'
           },
         ],
       },
@@ -80,7 +80,6 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
