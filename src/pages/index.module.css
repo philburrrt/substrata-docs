@@ -67,6 +67,14 @@
   justify-content: center;
 }
 
+a:link {
+  color:inherit;
+}
+
+a:visited {
+  color:inherit;
+}
+
 @media screen and (max-width: 966px) {
   .heroBanner {
     padding: 2rem;
