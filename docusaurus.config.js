@@ -22,6 +22,8 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          path: "docs/user/",
+          routeBasePath: "user",
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
@@ -43,6 +45,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
+        hideOnScroll: true,
         title: 'Substrata',
         logo: {
           alt: 'My Site Logo',
@@ -50,11 +53,11 @@ const config = {
         },
         items: [
           {
-            to: 'docs/user/intro',
+            to: 'user/intro',
             label: 'User'
           },
           {
-            to: 'docs/developer/intro',
+            to: 'developer/intro',
             label: 'Developer'
           },
           {
