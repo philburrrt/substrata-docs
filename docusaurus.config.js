@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Substrata',
-  tagline: 'Open Metaverse Protocol',
+  tagline: 'Community Resources and Documentation',
   url: 'https://substrata-docs.vercel.app/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
