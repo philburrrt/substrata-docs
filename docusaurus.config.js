@@ -58,6 +58,10 @@ const config = {
             label: 'Developer'
           },
           {
+            to: 'docs/contributing/editing-documentation',
+            label: 'Contributing'
+          },
+          {
             to: 'https://substrata.info/about_substrata',
             label: 'Vision'
           },
