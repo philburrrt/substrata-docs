@@ -25,14 +25,12 @@ All modification can be done through the Github user interface. All you need is 
 1. Paste in your copy from HackMD
 ![](https://i.imgur.com/ttsAUU5.png)
 1. Commit changes
-
-- Type a title for your change and a short description if necessary. Committing changes will fork the repository and create a branch specifically for the changes you are committing.
 ![](https://i.imgur.com/3FmdzUT.png)
+Type a title for your change and a short description if necessary. Committing changes will fork the repository and create a branch specifically for the changes you are committing.
 1. Create pull request
 ![](https://i.imgur.com/fugu4PU.jpg)
 1. Submit pull request
-
-- This is essentially asking the admins of the repo to accept the changes in the fork that you just created by 'committing changes'
 ![](https://i.imgur.com/UvwsfB5.jpg)
+This is essentially asking the admins of the repo to accept the changes in the fork that you just created by 'committing changes'
 
 You can use this same approach to create new pages, but not delete them. In order to add a new page, simply click the 'Add file' dropdown and choose 'Create new file'.
