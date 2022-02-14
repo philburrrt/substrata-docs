@@ -11,7 +11,7 @@ Access the alpha web client here: [https://substrata.info/webclient?](https://su
 
 Watch this video to learn how to use the app:
 
-<center><iframe width="844.8" height="475.2" src="https://www.youtube.com/embed/XG_cyByAuXQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+<center><iframe width="75%" height="350" src="https://www.youtube.com/embed/XG_cyByAuXQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
 ## Build and explore for free
 
