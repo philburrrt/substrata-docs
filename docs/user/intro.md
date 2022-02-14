@@ -9,6 +9,10 @@ Download the latest desktop client on [Substrata's homepage](https://substrata.i
 
 Access the alpha web client here: [https://substrata.info/webclient?](https://substrata.info/webclient?)
 
+Watch this video to learn how to use the app:
+
+<center><iframe width="844.8" height="475.2" src="https://www.youtube.com/embed/XG_cyByAuXQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+
 ## Build and explore for free
 
 You *do not* need to own land to experience Substrata's capabilities. Here's some things you can do to get a feel for the application: 
