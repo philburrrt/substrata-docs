@@ -6,7 +6,7 @@ sidebar_position: 1
 
 # Editing Documentation
 
-Substrata community documentation is hosted on a public Github repo that is actively maintained. Any may add, remove or modify copy in the documentation, which is found in the [docs](https://github.com/philburrrt/substrata-docs/tree/main/docs) folder. If the change is urgent, go to [discord](https://discord.gg/hzyYZEcU) and notify someone so and admin of the repo can prioritize the pull requeest
+Substrata community documentation is hosted on a public Github repo that is actively maintained. Any may add, remove or modify copy in the documentation, which is found in the [docs](https://github.com/philburrrt/substrata-docs/tree/main/docs) folder. If the change is urgent, go to [discord](https://discord.gg/hzyYZEcU) and notify someone so an admin of the repo can prioritize the pull request
 
 ## How to edit docs through Github (for noobs)
 
