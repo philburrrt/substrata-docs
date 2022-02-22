@@ -42,3 +42,8 @@ Paying with cryptocurrency through Coinbase does not require a Coinbase account.
 By default, purchasing a parcel **does not** mint an NFT. If you would like your minted, there are two steps to do so:
 1. On your account page, find the link that says 'Link an Ethereum address and prove you own it by signing a message' and complete the process.
 2. Find the parcel in your account and click 'mint NFT'. This is done manually and can take anywhere up to 24 hours.
+
+### Purchasing a parcel on the secondary market ###
+Finally, you have the option of purchasing an already-minted parcel from the secondary market on [Opensea](https://opensea.io/collection/substrata-parcel). Note parcels on the secondary market tend to be more expensive than buying them directly from the Substrata.info website.
+
+If you purchase an NFT on Opensea, you will then need to claim ownership of the NFT on the Substrata.info website.
