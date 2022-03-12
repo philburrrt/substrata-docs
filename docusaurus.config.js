@@ -16,29 +16,16 @@ const config = {
   organizationName: 'substrata', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
 
-  themeConfig: {
-    colorMode: {
-      defaultMode: 'dark',
-      disableSwitch: false,
-      respectPrefersColorScheme: true,
-      switchConfig: {
-        darkIcon: '🌙',
-        lightIcon: '☀️',
-        darkIconHover: '🌚',
-        lightIconHover: '🌞',
-      },
-    },
-  },
   
   presets: [
     [
-      'classic',
-      /** @type {import('@docusaurus/preset-classic').Options} */
+      '@docusaurus/preset-classic',
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl: 'https://github.com/philburrrt/substrata-docs/blob/main',
+          routeBasePath: '/',
         },
         blog: {
           showReadingTime: true,
@@ -64,15 +51,15 @@ const config = {
         },
         items: [
           {
-            to: 'docs/user/intro',
+            to: 'user/intro',
             label: 'User'
           },
           {
-            to: 'docs/developer/intro',
+            to: 'developer/intro',
             label: 'Developer'
           },
           {
-            to: 'docs/contributing/editing-documentation',
+            to: 'contributing/editing-documentation',
             label: 'Contributing'
           },
           {
@@ -100,7 +87,16 @@ const config = {
         ],
       },
 
-
+      colorMode: {
+        defaultMode: 'dark',
+        disableSwitch: false,
+        respectPrefersColorScheme: true,
+        switchConfig: {
+          darkIcon: '🌙',
+          lightIcon: '☀️',
+        },
+      },
+      
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
