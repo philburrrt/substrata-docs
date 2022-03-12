@@ -22,21 +22,36 @@ const config = {
       '@docusaurus/preset-classic',
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
+          sidebarPath: require.resolve('./sidebars/user-sidebar.js'),
           editUrl: 'https://github.com/philburrrt/substrata-docs/blob/main',
           routeBasePath: '/',
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/philburrrt/substrata-docs/blob/main',
-        },
+        blog: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
       }),
+    ],
+  ],
+
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'developer',
+        path: './developer/',
+        routeBasePath: 'developer/',
+        sidebarPath: require.resolve('./sidebars/dev-sidebar.js'),
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'contributing',
+        path: './contributing/',
+        routeBasePath: 'contributing/',
+        sidebarPath: require.resolve('./sidebars/contributing-sidebar.js'),
+      },
     ],
   ],
 
