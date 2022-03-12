@@ -51,7 +51,7 @@ const config = {
         },
         items: [
           {
-            to: 'user/intro',
+            to: '/',
             label: 'User'
           },
           {
