@@ -15,20 +15,6 @@ const config = {
   favicon: 'img/substrata.png',
   organizationName: 'substrata', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
-
-  themeConfig: {
-    colorMode: {
-      defaultMode: 'dark',
-      disableSwitch: false,
-      respectPrefersColorScheme: true,
-      switchConfig: {
-        darkIcon: '🌙',
-        lightIcon: '☀️',
-        darkIconHover: '🌚',
-        lightIconHover: '🌞',
-      },
-    },
-  },
   
   presets: [
     [
@@ -36,20 +22,40 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve('./sidebars/sidebars.js'),
           // Please change this to your repo.
           editUrl: 'https://github.com/philburrrt/substrata-docs/blob/main',
+          routeBasePath: '/',
+          disableVersioning: false,
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/philburrrt/substrata-docs/blob/main',
-        },
+        blog: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
       }),
+    ],
+  ],
+
+  plugins: [
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "developer",
+        path: "./docs/developer",
+        routeBasePath: "developer/",
+        sidebarPath: require.resolve("./sidebars/dev-sidebar.js"),
+        disableVersioning: false,
+      },
+    ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "contributing",
+        path: "./docs/contributing",
+        routeBasePath: "contributing/",
+        sidebarPath: require.resolve("./sidebars/contributing-sidebar.js"),
+        disableVersioning: false,
+      },
     ],
   ],
 
@@ -64,15 +70,15 @@ const config = {
         },
         items: [
           {
-            to: 'docs/user/intro',
+            to: '/user/intro',
             label: 'User'
           },
           {
-            to: 'docs/developer/intro',
+            to: '/developer/intro',
             label: 'Developer'
           },
           {
-            to: 'docs/contributing/editing-documentation',
+            to: '/contributing/editing-documentation',
             label: 'Contributing'
           },
           {
@@ -98,6 +104,16 @@ const config = {
             ],
           },
         ],
+      },
+
+      colorMode: {
+        defaultMode: 'dark',
+        disableSwitch: false,
+        respectPrefersColorScheme: true,
+        switchConfig: {
+          darkIcon: '🌙',
+          lightIcon: '☀️',
+        },
       },
 
 
