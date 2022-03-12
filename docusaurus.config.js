@@ -21,11 +21,7 @@ const config = {
     [
       '@docusaurus/preset-classic',
       ({
-        docs: {
-          sidebarPath: require.resolve('./sidebars/user-sidebar.js'),
-          editUrl: 'https://github.com/philburrrt/substrata-docs/blob/main',
-          routeBasePath: '/',
-        },
+        docs: false,
         blog: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -53,6 +49,15 @@ const config = {
         sidebarPath: require.resolve('./sidebars/contributing-sidebar.js'),
       },
     ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'user',
+        path: './user/',
+        routeBasePath: 'user/',
+        sidebarPath: require.resolve('./sidebars/user-sidebar.js'),
+      },
+    ],
   ],
 
   themeConfig:
@@ -66,7 +71,7 @@ const config = {
         },
         items: [
           {
-            to: '/',
+            to: '/user/intro',
             label: 'User'
           },
           {
